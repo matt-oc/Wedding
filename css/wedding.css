@@ -156,7 +156,7 @@ label {
   left: 0;
   right: 0;
   border-radius: 20px;
-  box-shadow: 0 0 10px 14px rgba(244,244,244,1) inset;
+  box-shadow: 0 0 3px 4px rgba(248,248,246,1) inset, 0 0 8px 9px rgba(248,248,246,1);
 }
 
 .morris {
