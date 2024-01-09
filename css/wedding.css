@@ -127,6 +127,7 @@ label {
   right: 0;
   background-color: rgba(156,141,157, 0.87);
   z-index: 5;
+   width: 100%
 }
 
 .jumbotron-contents {
@@ -276,7 +277,7 @@ box-shadow: 0px 0px 50px 7px rgba(194, 162, 109, 0.4);
 @media screen and (max-width: 443px) {
   h1 { font-size: 4rem;}
   .title:before  {
-    left: 35%;
+    left: 30%;
   }
 }
 
