@@ -366,6 +366,9 @@ canvas {
   .modal-wider {
     max-width: 96%;
   }
+  p {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 1442px) {
