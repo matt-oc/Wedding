@@ -253,7 +253,7 @@ timer = 0;
 // main demo loop
 function loop() {
 	// this function will run endlessly with requestAnimationFrame
-if (timer < 500) {
+if (timer < 350) {
   timer = timer + 1;
 	requestAnimFrame( loop );
 
