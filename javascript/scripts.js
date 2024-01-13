@@ -53,7 +53,7 @@ rsvpForm.addEventListener("submit", (e) => {
 });
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) { //use `this`, not `document`
+    if ($(this).scrollTop() > 140) { //use `this`, not `document`
       $(".arrow").fadeOut("slow", function () {
     $(".arrow").css({display:"none"});
 });
