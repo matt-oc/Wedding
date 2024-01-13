@@ -52,6 +52,14 @@ rsvpForm.addEventListener("submit", (e) => {
 
 });
 
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) { //use `this`, not `document`
+      $(".arrow").fadeOut("slow", function () {
+    $(".arrow").css({display:"none"});
+});
+    }
+});
+
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
 window.requestAnimFrame = ( function() {
